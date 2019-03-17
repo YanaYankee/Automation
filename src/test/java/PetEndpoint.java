@@ -8,7 +8,7 @@ public class PetEndpoint {
     private RequestSpecification given() { //renamed from baseSpecification
         return  RestAssured.given()
                 .baseUri(Config.PET_STORE_BASE_HOST)
-                .contentType("application/json") //for POST requests!!!
+                .contentType("application/json") //for POST requests!!! can pass String instead of JSON and server will take it
                 .log().uri(); // log request
     }
 
