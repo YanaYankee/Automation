@@ -8,6 +8,7 @@ public class PetEndpoint {
     private RequestSpecification given() { //renamed from baseSpecification
         return  RestAssured.given()
                 .baseUri(Config.PET_STORE_BASE_HOST)
+                .contentType("application/json") //for POST requests!!!
                 .log().uri(); // log request
     }
 
@@ -25,6 +26,14 @@ public class PetEndpoint {
                 //.param("statusName", status) //query params
                 .queryParam("statusName", status) //query params
                 .get()
+                .then().extract().response();
+    }
+
+    public Response createPet(String body) {
+        return given()
+                .basePath(Config.CREATE_PET)
+                .body(body)
+                .post()
                 .then().extract().response();
     }
 

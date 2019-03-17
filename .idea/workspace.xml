@@ -4,6 +4,7 @@
     <list default="true" id="a037b78c-dbff-4639-9d38-c003080e2f92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PetStoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStoreTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PetStoreTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="262">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="e#0#2389#0" expanded="true" />
               </folding>
@@ -40,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PetEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="182">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -75,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Config.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PetStoreTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/PetEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PetStoreTests.java" />
       </list>
     </option>
   </component>
@@ -128,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552835007591" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552838044894" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PetStoreTests.getPetStatus200">
+  <component name="RunManager" selected="TestNG.PetStoreTests.getPetById700">
     <configuration name="PetStoreTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="petstore-restassured" />
       <option name="PACKAGE_NAME" value="" />
@@ -158,11 +159,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStoreTests.getPetById200" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreTests.createPet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="petstore-restassured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetStoreTests" />
-      <option name="METHOD_NAME" value="getPetById200" />
+      <option name="METHOD_NAME" value="createPet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,6 +176,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetStoreTests" />
       <option name="METHOD_NAME" value="getPetById404" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreTests.getPetById700" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="petstore-restassured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PetStoreTests" />
+      <option name="METHOD_NAME" value="getPetById700" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -196,10 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PetStoreTests.getPetById700" />
+        <item itemvalue="TestNG.PetStoreTests.createPet" />
         <item itemvalue="TestNG.PetStoreTests.getPetStatus200" />
         <item itemvalue="TestNG.PetStoreTests" />
         <item itemvalue="TestNG.PetStoreTests.getPetById404" />
-        <item itemvalue="TestNG.PetStoreTests.getPetById200" />
       </list>
     </recent_temporary>
   </component>
@@ -213,23 +227,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552821587560</updated>
-      <workItem from="1552821596184" duration="8950000" />
+      <workItem from="1552821596184" duration="12186000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PetStoreTests - 2019.03.17 at 14h 12m 17s.xml">
-      <configuration name="PetStoreTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PetStoreTests - 2019.03.17 at 14h 19m 51s.xml">
-      <configuration name="PetStoreTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PetStoreTests - 2019.03.17 at 14h 23m 09s.xml">
-      <configuration name="PetStoreTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PetStoreTests - 2019.03.17 at 14h 24m 59s.xml">
-      <configuration name="PetStoreTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PetStoreTests - 2019.03.17 at 16h 31m 04s.xml">
       <configuration name="PetStoreTests" configurationId="TestNG" />
     </history-entry>
@@ -248,9 +250,21 @@
     <history-entry file="PetStoreTests - 2019.03.17 at 16h 54m 20s.xml">
       <configuration name="PetStoreTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PetStoreTests_getPetStatus200 - 2019.03.17 at 17h 03m 42s.xml">
+      <configuration name="PetStoreTests.getPetStatus200" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PetStoreTests_getPetStatus200 - 2019.03.17 at 17h 05m 13s.xml">
+      <configuration name="PetStoreTests.getPetStatus200" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PetStoreTests_createPet - 2019.03.17 at 17h 48m 38s.xml">
+      <configuration name="PetStoreTests.createPet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PetStoreTests_getPetById700 - 2019.03.17 at 17h 49m 29s.xml">
+      <configuration name="PetStoreTests.getPetById700" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8950000" />
+    <option name="totallyTimeSpent" value="12186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,6 +314,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -307,17 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PetEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="182">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -326,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PetStoreTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="262">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="e#0#2389#0" expanded="true" />
           </folding>

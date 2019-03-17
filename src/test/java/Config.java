@@ -6,4 +6,6 @@ public class Config {
 
     public static final String GET_PET_STATUS_ENDPOINT = "/pet/findByStatus"; //queryParam adds variable {status} https://petstore.swagger.io/v2/pet/findByStatus?status=available
 
+    public static final String CREATE_PET = "/pet"; //JSON to body
+
 }

@@ -25,6 +25,37 @@ public class PetStoreTests {
                 .getPetStatus("available")
                 .then().statusCode(200);
     }
+    @Test
+    public void createPet() {
+        String body = "{\n" +
+                "  \"id\": 7777,\n" +
+                "  \"category\": {\n" +
+                "    \"id\": 7777,\n" +
+                "    \"name\": \"pes\"\n" +
+                "  },\n" +
+                "  \"name\": \"PesPes\",\n" +
+                "  \"photoUrls\": [\n" +
+                "    \"string\"\n" +
+                "  ],\n" +
+                "  \"tags\": [\n" +
+                "    {\n" +
+                "      \"id\": 7777,\n" +
+                "      \"name\": \"sobaka\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"status\": \"available\"\n" +
+                "}";
+       PET_ENDPOINT.createPet(body)
+       .then().statusCode(200);
+    }
+
+    @Test
+    public void getPetById700() {
+        PET_ENDPOINT
+                .getPetById(7777)
+                .then().statusCode(200);
+    }
+
 //
 //    @Test
 //    public void getPetById200 () {
